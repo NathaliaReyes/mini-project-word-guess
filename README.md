@@ -28,7 +28,7 @@ N/A
 Please refer to the LICENSE in the repo.
 
 ## Website
-This is the link to the live application: 
+This is the link to the live application: https://nathaliareyes.github.io/mini-project-word-guess/
 
 The following image shows the web application's appearance and functionality:
 
