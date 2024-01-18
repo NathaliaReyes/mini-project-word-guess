@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #253b4e;
+    --yellow-deg: #dfce70;
+    --warm-deg: #dccf78;
+    --gray-deg: #cacab8;
+    --light: #f0f3f5;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+.top {
+    background: rgba(0, 0, 0, 0.1);;
+    color: var(--light);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.top h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 0;
+}
+
+#btn-start {
+    padding: 12px 28px;
+    background: var(--warm-deg);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 5px var(--yellow-deg),
+    0 0 25px var(--yellow-deg);
+    margin-bottom: 20px;
+    
+}
+
+#btn-start:hover {
+    box-shadow: 0 0 5px var(--light),
+    0 0 25px var(--light),
+    0 0 50px var(--light),
+    0 0 100px var(--light);
+}
+
+#btn-reset {
+    padding: 12px 28px;
+    background: var(--warm-deg);
+    border-radius: 10px;
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: 0 0 5px var(--yellow-deg),
+    0 0 25px var(--yellow-deg);
+}
+
+#btn-reset:hover {
+    box-shadow: 0 0 5px var(--light),
+    0 0 25px var(--light),
+    0 0 50px var(--light),
+    0 0 100px var(--light);
+}
+
+.middle {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+
+.left {
+    flex: 1;
+    background: radial-gradient(circle, var(--yellow-deg), var(--gray-deg));
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    height: 300px;
+    border-radius: 10px;
+    border: 3px solid var(--light);
+}
+
+.right {
+    background: radial-gradient(circle, var(--yellow-deg), var(--gray-deg));
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: 3px solid var(--light);
+
+}
+
+.div1 {
+    flex-direction: column;
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+
+}
+
+
+
+.div3 {
+    color: var(--light);
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--yellow-deg);
+    width: 100%;
+}
+
+.time {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 80px;
+    font-size: 40px;
+}
